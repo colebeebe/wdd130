@@ -86,7 +86,7 @@ nav a:hover {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px black;
 }
 footer {
     background-color: #2f745f;
