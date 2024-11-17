@@ -222,8 +222,10 @@ main section img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 80px;
 }
-.blog-content img {
+#highlight-images img {
     width: 400px;
+}
+.blog-content img {
     border: 10px solid #292d39;
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 20px;
@@ -244,11 +246,36 @@ main section img {
     text-align: center;
 }
 #scorpion {
-    float: right;
+    display: flex;
+    width: 100%;
+}
+#scorpion-text {
+    width: 88%;
+}
+#scorpion-pic {
+    position: relative;
+}
+#scorpion-pic img {
+    height: 90%;
+    width: auto;
+    display: block;
+    position: absolute;
+    margin-left: 15px;
 }
 #ram {
-    float: left;
+    display: flex;
+    width: 100%;
+    margin-bottom: -200px;
+}
+#ram-text {
+    width: 100%;
+}
+#ram-pic {
+    width: 18%;
     margin-right: 20px;
+}
+#ram-pic img {
+    height: 50%;
 }
 
 
