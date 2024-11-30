@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Markazi+Text:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fonts:
+Headers and links: Noto Sans
+Body: Markazi Text
+*/
+
+::selection {
+    color: lightgray;
+    background: green;
+}
+::-moz-selection {
+    color: lightgray;
+    background: green;
+}
+* {
+    /* border: 2px solid red; */
+    font-family: 'Markazi Text';
+}
+p {
+    font-size: 1.4em;;
+}
+h1, h2, h3, h4, a {
+    font-family: 'Noto Sans';
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#nav-links a:hover {
+    background-color: lightgray;
+}
+#name-link {
+    padding: 20px;
+    font-family: 'Markazi Text';
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-left: 35px;
+    
+}
+nav {
+    display: flex;
+    background-color: grey;
+}
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: auto;
+}
+#nav-links a {
+    padding: 25px;
+}
+#hero {
+    display: flex;
+    background-color: lightgray;
+}
+#hero img {
+    margin-left: auto;
+    margin-right: 120px;
+    height: 800px;;
+}
+#hero-msg {
+    margin: 200px auto;
+}
