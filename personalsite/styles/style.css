@@ -6,11 +6,11 @@ Body: Markazi Text
 */
 
 ::selection {
-    color: #F0F0F0;
+    color: #eff0f0;
     background: #0F4745;
 }
 ::-moz-selection {
-    color: #F0F0F0;
+    color: #eff0f0;
     background: #0F4745;
 }
 /* * {
@@ -23,7 +23,7 @@ Body: Markazi Text
 }
 body {
     margin: 0;
-    background-color: #F0F0F0;
+    background-color: #eff0f0;
 }
 p {
     font-size: 1.4em;;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, a {
 }
 nav a {
     text-decoration: none;
-    color: #F0F0F0;
+    color: #eff0f0;
 }
 #nav-links a:hover {
     background-color: #235956;
@@ -65,12 +65,14 @@ nav #header h1 {
 }
 #hero {
     display: flex;
-    background-color: #F0F0F0;
 }
 #hero img {
     margin-left: auto;
     margin-right: 80px;
     height: 800px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #959A9C;
+    margin-top: 30px;
 }
 #hero-msg {
     margin: 200px 80px;
@@ -93,7 +95,7 @@ footer {
     justify-content: space-around;
 }
 footer a, footer p {
-    color: #F0F0F0;
+    color: #eff0f0;
     text-decoration: none;
 }
 footer p {
@@ -118,4 +120,15 @@ footer a {
     padding: 10px 80px;
     margin: 40px auto;
     box-shadow: 5px 5px 10px #959A9C;
+}
+#education h1, #experience h1 {
+    margin: auto 120px;
+}
+#education {
+    margin-top: 80px;
+}
+.separator {
+    background-color: #DBDBDB;
+    height: 1px;
+    margin: 30px;
 }
