@@ -25,8 +25,11 @@ body {
     margin: 0;
     background-color: #eff0f0;
 }
+li {
+    font-size: 1.4em;
+}
 p {
-    font-size: 1.4em;;
+    font-size: 1.4em;
 }
 h1, h2, h3, h4, a {
     font-family: 'Noto Sans';
@@ -121,7 +124,7 @@ footer a {
     margin: 40px auto;
     box-shadow: 5px 5px 10px #959A9C;
 }
-#education h1, #experience h1 {
+#education h1, #experience h1, #skills h1 {
     margin: auto 120px;
 }
 #education {
